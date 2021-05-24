@@ -11,3 +11,9 @@ API de Integração de Ponto de Vendas
  - Swagger (Documentação)
  - Junit (Teste Unitario)
  - Integracao AWS S3
+
+
+# Historico de Versões
+
+## v1.00.01 - SNAPSHOT - 12/04/2021
+ - Novo enpoint Clientes
