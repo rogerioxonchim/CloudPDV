@@ -16,4 +16,4 @@ API de Integração de Ponto de Vendas
 # Historico de Versões
 
 ## v1.00.01 - SNAPSHOT - 12/04/2021
- - Novo enpoint Clientes
+ - Endpoint Clientes
