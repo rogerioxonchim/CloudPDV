@@ -1,0 +1,21 @@
+CREATE TABLE `tb_cliente` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `des_cidade` varchar(100) DEFAULT NULL,
+  `cod_interno` bigint(20) DEFAULT NULL,
+  `des_bairro` varchar(50) DEFAULT NULL,
+  `des_complemento` varchar(50) DEFAULT NULL,
+  `des_contato` varchar(50) DEFAULT NULL,
+  `des_endereco` varchar(250) DEFAULT NULL,
+  `des_nome` varchar(200) DEFAULT NULL,
+  `des_observacao` varchar(5000) DEFAULT NULL,
+  `cod_empresa` bigint(20) DEFAULT NULL,
+  `cod_loja` bigint(20) DEFAULT NULL,
+  `num_cpf` varchar(20) DEFAULT NULL,
+  `num_celular` varchar(20) DEFAULT NULL,
+  `num_cep` varchar(10) DEFAULT NULL,
+  `num_endereco` varchar(10) DEFAULT NULL,
+  `num_telefone` varchar(20) DEFAULT NULL,
+  `num_rg` varchar(20) DEFAULT NULL,
+  `val_limite_credito` double DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
