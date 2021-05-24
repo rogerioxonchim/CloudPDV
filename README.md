@@ -1,7 +1,7 @@
 # CloudPDV
 API de Integração de Ponto de Vendas
 
-## Foram Ultilizados no Projeto 
+## Foram Utilizados no Projeto 
  - Spring Boot
  - Spring Data JPA
  - Flyway Migration (Versionamento de Base de Dados)
