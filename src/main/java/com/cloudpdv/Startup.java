@@ -17,14 +17,6 @@ public class Startup extends SpringBootServletInitializer {
         SpringApplication.run(Startup.class, args);
     }
 
-//        BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder(16);
-//        String result = bCryptPasswordEncoder.encode("c4ca4238a0b923820dcc509a6f75849b");
-//        System.out.println("My hash " + result);
-//        
-//        StandardPasswordEncoder bCryptPasswordEncoder = new StandardPasswordEncoder();
-//        String result = bCryptPasswordEncoder.encode("c4ca4238a0b923820dcc509a6f75849b");
-//        System.out.println("My hash " + result);
-    
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(getClass());
