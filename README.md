@@ -1,7 +1,7 @@
 # CloudPDV
 API de Integração de Ponto de Vendas
 
-## Técnologias ultilizadas
+## Tecnologias ultilizadas
  - Spring Boot
  - Spring Data JPA
  - Flyway Migration (Versionamento de Base de Dados)
